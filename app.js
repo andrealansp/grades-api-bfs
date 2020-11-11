@@ -11,6 +11,7 @@ import { db } from './models/index.js';
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    console.log('oi');
   } catch (error) {
     process.exit();
   }

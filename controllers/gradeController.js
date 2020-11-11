@@ -1,6 +1,6 @@
 import { db } from '../models/index.js';
 import { logger } from '../config/logger.js';
-import { gradesModel } from '../models/modelGrades.js';
+import { gradesModel } from '../models/gradesModel.js';
 /** Atribuindo modelo de Grade ao banco de dados */
 db.grade = gradesModel;
 const Grade = db.grade;
